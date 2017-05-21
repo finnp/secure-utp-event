@@ -1,0 +1,21 @@
+{
+  "name": "secure-utp-event",
+  "version": "1.0.0",
+  "description": "send and receive encrypted events over UTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["utp", "protobuf"],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "protocol-buffers-stream": "^1.3.1",
+    "sodium-universal": "^1.0.0",
+    "utp-native": "^1.5.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
