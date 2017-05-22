@@ -1,5 +1,7 @@
 # secure-utp-event
 
+⚠️ Since the same nonce is used repeatedly this module is currently vulerable to replay attacks (see [#1](https://github.com/finnp/secure-utp-event/issues/1))
+
 One-way channel to send and receive encrypted events over UTP. Messages are
 defined in protobuf format, and are acknowledged when received. Useful if you
 have a centralized discovery mechanism through which everyone knows each other's
